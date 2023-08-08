@@ -1,0 +1,29 @@
+:root {
+  --success: #198754;
+  --lightgrey: #fafafa;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* NAVBAR */
+.nav-link:hover {
+  color: var(--success);
+}
+
+/* SERVICES */
+.services {
+  background-color: var(--lightgrey);
+}
+
+/* DESTINATIONS */
+.destinations {
+  margin-top: 120px;
+}
+
+/* QNA */
+.qna {
+  margin-top: 120px;
+  background-color: var(--lightgrey);
+}

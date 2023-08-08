@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="img/icon/air-transport.png" />
+    <title>Lux Travel</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FEATHER ICONS -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- CSS BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <!-- MY STYLE -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm fixed-top">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand fw-semibold" href="#"
+          ><span class="text-success">LUX</span>TRAVEL</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigation -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto fw-medium align-items-center">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-success"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#destinations">Destinations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#qna">Q&A</a>
+            </li>
+
+            <!-- Button -->
+            <li class="nav-item">
+              <a
+                class="btn btn-outline-success btn-sm ms-5"
+                href="pages/empty.html"
+                role="button"
+                >Login</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="btn btn-success btn-sm ms-2"
+                href="pages/empty.html"
+                role="button"
+                >Sign up</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <div class="container vh-100" id="home">
+      <div
+        class="row align-items-center justify-content-between pt-5"
+        style="height: 90%"
+      >
+        <div class="col-5">
+          <h1 class="fw-bold mb-4 text-dark">
+            Where <span class="text-success">Memories</span> are Made and
+            <span class="text-success">Adventures</span> Begin.
+          </h1>
+          <p>
+            Make a pleasant journey and build unforgettable memories with us.
+          </p>
+          <a href="pages/empty.html" class="btn btn-success btn-lg"
+            >Get started</a
+          >
+        </div>
+        <div class="col-5">
+          <img width="400" src="img/hero-img.svg" alt="travel insurance" />
+        </div>
+      </div>
+      <div class="row text-center">
+        <i class="text-success" data-feather="arrow-down"></i>
+      </div>
+    </div>
+
+    <!-- SERVICES SECTION -->
+    <div id="services">
+      <div class="services">
+        <div class="container">
+          <div class="row align-items-center justify-content-center my-5">
+            <div class="col-5">
+              <img src="img/services-img.svg" alt="Service 24/7" width="400" />
+            </div>
+            <div class="col-5">
+              <div class="heading mb-5">
+                <h6 class="fs-6 text-success">— WE OFFER</h6>
+                <h2 class="fs-2 text-dark fw-semibold">Best Services</h2>
+              </div>
+              <div class="service-list">
+                <p class="fs-5 align-items-center fw-medium">
+                  <i class="text-success me-3" data-feather="check-circle"></i
+                  >Personalized Travel Planning
+                </p>
+                <p class="fs-5 align-items-center fw-medium">
+                  <i class="text-success me-3" data-feather="check-circle"></i
+                  >24/7 Responsive Customer Support
+                </p>
+                <p class="fs-5 align-items-center fw-medium">
+                  <i class="text-success me-3" data-feather="check-circle"></i
+                  >Unparalleled Destination Expertise
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DESTINATIONS SECTION -->
+    <div id="destinations"></div>
+    <div class="destinations">
+      <div class="container">
+        <div class="row heading mb-5 text-center">
+          <h6 class="fs-6 text-success">OUR</h6>
+          <h2 class="fs-2 text-dark fw-semibold">Top Destinations</h2>
+        </div>
+
+        <div class="row text-center justify-content-center gap-4">
+          <!-- burj khalifa -->
+          <div class="col-3">
+            <div class="card text-center shadow" style="width: 18rem">
+              <img
+                src="img/burj-khalifa.jpg"
+                class="card-img-top"
+                alt="Burj Khalifa"
+                style="aspect-ratio: 1/1; object-fit: cover"
+              />
+              <div class="card-body p-4">
+                <h5 class="card-title fw-semibold fs-4 mt-2 mb-4">
+                  Burj Khalifa, Dubai
+                </h5>
+                <div class="mt-2">
+                  <a href="pages/empty.html" class="btn btn-success"
+                    >Get ticket</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- tower of london -->
+          <div class="col-3">
+            <div class="card text-center shadow" style="width: 18rem">
+              <img
+                src="img/tower-of-london.jpg"
+                class="card-img-top"
+                alt="Tower of London"
+                style="aspect-ratio: 1/1; object-fit: cover"
+              />
+              <div class="card-body p-4">
+                <h5 class="card-title fw-semibold fs-4 mt-2 mb-4">
+                  Tower of London, London
+                </h5>
+                <div class="mt-2">
+                  <a href="pages/empty.html" class="btn btn-success"
+                    >Get ticket</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- nusa penida -->
+          <div class="col-3">
+            <div class="card text-center shadow" style="width: 18rem">
+              <img
+                src="img/nusa-penida.jpg"
+                class="card-img-top"
+                alt="Nusa Penida"
+                style="aspect-ratio: 1/1; object-fit: cover"
+              />
+              <div class="card-body p-4">
+                <h5 class="card-title fw-semibold fs-4 mt-2 mb-4">
+                  Nusa Penida, Bali
+                </h5>
+                <div class="mt-2">
+                  <a href="pages/empty.html" class="btn btn-success"
+                    >Get ticket</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- QnA -->
+    <div id="qna">
+      <div class="qna py-5 my-5">
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <!-- kiri -->
+            <div class="col-5">
+              <h6 class="fs-6 text-success ps-5">— QNA</h6>
+              <h2 class="fs-1 fw-semibold ps-5">
+                Most <br />
+                Asked <br />
+                Questions
+              </h2>
+              <img
+                src="img/Questions-bro.svg"
+                width="360"
+                alt="person questions"
+              />
+            </div>
+            <!-- kanan -->
+            <div class="col-5 pt-4">
+              <!-- question -->
+              <div class="item-question">
+                <div class="row text-success fw-semibold fs-5">
+                  <div class="col-1 fs-1">1.</div>
+                  <div class="col-11">
+                    Do you offer travel packages that include flights,
+                    accommodations, and activities?
+                  </div>
+                </div>
+                <p class="fs-6 mt-3">
+                  Yes, we offer comprehensive travel packages that include
+                  flights, accommodations, and a range of activities tailored to
+                  your preferences.
+                </p>
+              </div>
+              <!-- question -->
+              <div class="item-question mt-5">
+                <div class="row text-success fw-semibold fs-5">
+                  <div class="col-1 fs-1">2.</div>
+                  <div class="col-11">
+                    Can you help with arranging tours and excursions at the
+                    destinations?
+                  </div>
+                </div>
+                <p class="fs-6 mt-3">
+                  Absolutely, we can assist in arranging exciting tours and
+                  excursions to enhance your travel experience. Just let us know
+                  what you're interested in!
+                </p>
+              </div>
+              <!-- question -->
+              <div class="item-question mt-5">
+                <div class="row text-success fw-semibold fs-5">
+                  <div class="col-1 fs-1">3.</div>
+                  <div class="col-11">
+                    Are there any special deals or discounts available for
+                    booking multiple trips?
+                  </div>
+                </div>
+                <p class="fs-6 mt-3">
+                  Yes, we often offer special discounts and promotions for
+                  customers booking multiple trips or group packages. Feel free
+                  to inquire for current offers.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-success">
+      <div class="container">
+        <div class="row footer py-4 align-items-center justify-content-between">
+          <p
+            class="col-auto me-auto align-items-center mb-0 fw-regular text-white fs-6"
+          >
+            &copy 2023 <span class="fw-semibold">Luxury Travel</span> | All
+            rights reserved.<br />
+            Created by Aldo Ferdian.
+          </p>
+          <div class="sosmed col-auto text-white d-inline-block">
+            <a href="https://www.facebook.com">
+              <img
+                width="36"
+                src="img/icon/icons8-facebook.svg"
+                alt="facebook icon"
+              />
+            </a>
+            <a href="https://www.instagram.com">
+              <img
+                width="36"
+                src="img/icon/icons8-instagram.svg"
+                alt="instagram icon"
+              />
+            </a>
+            <a href="https://www.tiktok.com">
+              <img
+                width="36"
+                src="img/icon/icons8-tiktok.svg"
+                alt="tiktok icon"
+              />
+            </a>
+            <a href="https://www.youtube.com">
+              <img
+                width="36"
+                src="img/icon/icons8-youtube.svg"
+                alt="youtube icon"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- FEATHER ICONS -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- SCRIPT BOOTSTRAP -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
